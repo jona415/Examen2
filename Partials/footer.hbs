@@ -1,0 +1,28 @@
+{{> header}}
+ <div class="container">
+     </h1pintores</h1>
+     {{#if pintores}}
+     <table class="table table-dark table-hover">
+        <thead>
+            <tr>  
+                  <td>ID>/td>
+                  <td>Nombre>/td>
+                  <td>Nacionalidad>/td>
+                  <td>Corriente>/td>
+                  <td>Imagen>/td>
+
+             </tr> 
+        </thead>
+      </tbody>
+
+                   <td>ID>/td>
+                  <td>{{Nombre}}>/td>
+                  <td>{{Nacionalidad}}>/td>
+                  <td>{{Corriente}}>/td>
+                  <td>{{Pintura}}>/td>
+
+            
+     {{ else }}
+     <div>No se encuentran pintores</div>
+     {{/if}}
+     </div>
